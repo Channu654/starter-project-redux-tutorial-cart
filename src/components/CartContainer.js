@@ -1,9 +1,10 @@
 import React from "react";
 import CartItem from "./CartItem";
+
 const CartContainer = ({ cart = [] }) => {
   if (cart.length === 0) {
     return (
-      <section className="cart">
+      <section className="cart"> 
         {/* cart header */}
         <header>
           <h2>your bag</h2>
