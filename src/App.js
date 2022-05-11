@@ -1,20 +1,12 @@
-import React from "react";
-// components
-import Navbar from "./components/Navbar";
-import CartContainer from "./components/CartContainer";
-// items
-import cartItems from "./cart-items";
-// redux stuff
+import React from 'react';
 
-function App() {
-  // cart setup
-
+const App = () => {
   return (
-    <main>
-      <Navbar />
-      <CartContainer cart={cartItems} />
-    </main>
+    <div>
+      <h2>App</h2>
+      
+    </div>
   );
-}
+};
 
 export default App;
